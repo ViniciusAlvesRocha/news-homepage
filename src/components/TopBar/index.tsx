@@ -1,11 +1,12 @@
 import React from 'react';
 import logo from '/logo.svg';
+import TopBarStyled from './styled';
 
 const TopBar = () => (
-    <header>
-        <img src={logo} alt="logo news homepage" />
+    <TopBarStyled className="container flex justify-between mt-20">
+        <img className="w-14 h-10" src={logo} alt="logo news homepage" />
         <nav>
-            <ul className="list-none">
+            <ul className="list-none flex text-slate-800">
                 <li>Home</li>
                 <li>New</li>
                 <li>Popular</li>
@@ -13,6 +14,6 @@ const TopBar = () => (
                 <li>Categories</li>
             </ul>
         </nav>
-    </header>
+    </TopBarStyled>
 );
 export default TopBar;
