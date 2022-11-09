@@ -3,16 +3,20 @@ import './App.css'
 import TopBar from './components/TopBar';
 import MainNews from './components/MainNews';
 import SideNews from './components/SideNews';
+import NewsFooter from './components/NewsFooter';
 
 function App() {
 
   return (
-    <div className="App">
+    <div>
       <TopBar />
-      <div className="container flex">
+      {/*
+      <div className="main-news-side-news container flex mt-10">
         <MainNews />
         <SideNews />
       </div>
+      <NewsFooter />
+      */}
     </div>
   )
 }

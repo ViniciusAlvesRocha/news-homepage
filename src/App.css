@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.container {
-    padding-left: 100px;
-    padding-right: 100px; 
-}
+    .container {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    
+
+    @media only screen and (min-width: 600px) {
+
+        .container {
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    }

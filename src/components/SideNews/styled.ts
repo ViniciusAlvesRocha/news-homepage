@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const SideNewsStyled = styled.aside`
+    width: 63%;
     background-color: rgb(2, 0, 24);
     color: #fff;
     h2 {
@@ -12,6 +13,9 @@ const SideNewsStyled = styled.aside`
         }
         div  {
             p {
+                color: #d3d3d3;
+            }
+            hr {
                 color: #d3d3d3;
             }
         }

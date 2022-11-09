@@ -1,9 +1,15 @@
 import { createGlobalStyle, GlobalStyleComponent } from "styled-components";
 
 const globalStyled = createGlobalStyle`
-    .container {
-        margin-left: 40px;
-        margin-right: 20px;
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    @media screen and (max-width: 600px) {
+        .main-news-side-news {
+            flex-direction: column;
+        }
     }
 `;
 
